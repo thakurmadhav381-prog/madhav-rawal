@@ -1,135 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madhav Rawal | Software Developer, Hackathon Winner & 3D Web Creator</title>
-    <meta name="title" content="Madhav Rawal | Software Developer, Hackathon Winner & 3D Web Creator">
-    <meta name="description" content="Official portfolio and professional biography of Madhav Rawal, Computer Science undergraduate and software developer specializing in interactive 3D web applications, KVL circuit simulation, and AI. 1st Prize Hackathon Winner.">
-    <meta name="keywords" content="Madhav Rawal, Software Developer, Computer Science Undergraduate, Hackathon Winner, Fetchzero, LabFault 3D, EchoLab 3D, thakurmadhav14, thakurmadhav05, WebGL Developer">
-    <meta name="author" content="Madhav Rawal">
-    <meta name="robots" content="index, follow">
-    <meta property="og:type" content="profile">
-    <meta property="og:title" content="Madhav Rawal | Software Developer & Hackathon Winner">
-    <meta property="og:description" content="Explore the professional portfolio, live 3D simulation projects (LabFault 3D, EchoLab 3D), and technical achievements of Madhav Rawal.">
-    <style>
-        :root { --bg-dark: #070b14; --bg-card: #111827; --bg-card-hover: #1e293b; --text-primary: #f8fafc; --text-secondary: #94a3b8; --accent-cyan: #38bdf8; --accent-emerald: #34d399; --accent-amber: #fbbf24; --border-color: #1f2937; }
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', system-ui, -apple-system, sans-serif; }
-        body { background-color: var(--bg-dark); color: var(--text-primary); line-height: 1.65; padding: 2.5rem 1.25rem; min-height: 100vh; }
-        .container { max-width: 1080px; margin: 0 auto; }
-        .hero { background: linear-gradient(145deg, rgba(17, 24, 39, 0.95), rgba(15, 23, 42, 0.85)); border: 1px solid var(--border-color); border-radius: 24px; padding: 3rem 2.5rem; margin-bottom: 2.5rem; }
-        .badge-row { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 1.2rem; }
-        .status-badge { background: rgba(56, 189, 248, 0.12); color: var(--accent-cyan); border: 1px solid rgba(56, 189, 248, 0.3); padding: 0.35rem 0.85rem; border-radius: 999px; font-size: 0.8rem; font-weight: 600; }
-        .award-badge { background: rgba(251, 191, 36, 0.12); color: var(--accent-amber); border: 1px solid rgba(251, 191, 36, 0.3); padding: 0.35rem 0.85rem; border-radius: 999px; font-size: 0.8rem; font-weight: 600; }
-        h1 { font-size: clamp(2.2rem, 5vw, 3.2rem); font-weight: 800; margin-bottom: 0.5rem; color: #fff; }
-        .hero-subtitle { font-size: 1.15rem; color: var(--accent-cyan); font-weight: 600; margin-bottom: 1rem; }
-        .hero-bio { color: var(--text-secondary); max-width: 780px; font-size: 1.02rem; margin-bottom: 1.8rem; }
-        .section-header { display: flex; justify-content: space-between; align-items: flex-end; margin: 2.5rem 0 1.25rem 0; border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem; }
-        .bio-story { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 20px; padding: 2.25rem; margin-bottom: 2.5rem; }
-        .bio-story p { color: var(--text-secondary); margin-bottom: 1.15rem; }
-        .bio-story strong { color: var(--text-primary); }
-        .projects-grid, .bento-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 2.5rem; }
-        .project-card, .bento-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 18px; padding: 1.75rem; display: flex; flex-direction: column; justify-content: space-between; }
-        .project-tag { font-size: 0.75rem; text-transform: uppercase; font-weight: 700; color: var(--accent-emerald); margin-bottom: 0.5rem; }
-        .project-card h3, .bento-card h3 { font-size: 1.25rem; margin-bottom: 0.8rem; color: #fff; }
-        .project-card p { color: var(--text-secondary); font-size: 0.94rem; margin-bottom: 1.25rem; }
-        .tech-pills { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 1.4rem; }
-        .pill { font-size: 0.75rem; background: rgba(148, 163, 184, 0.12); color: #cbd5e1; padding: 0.25rem 0.65rem; border-radius: 6px; }
-        .cert-list { list-style: none; }
-        .cert-list li { margin-bottom: 1rem; color: var(--text-secondary); font-size: 0.93rem; }
-        .cert-list strong { color: var(--text-primary); display: block; }
-        footer { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color); text-align: center; color: var(--text-secondary); font-size: 0.88rem; }
-    </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Madhav Portfolio — Final Version 2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+<style>
+:root{--night:#0b1020;--night2:#111a2c;--ink:#111827;--dim:#6b7280;--lime:#cbfd64;--blue:#3b82f6;--line:rgba(255,255,255,0.08);--font-head:'Space Grotesk',sans-serif;--font-body:'DM Sans',sans-serif}
+*,*:before,*:after{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;font-family:var(--font-body);background:var(--night);color:#fff;line-height:1.6}
+a{color:inherit;text-decoration:none}
+.topbar{position:sticky;top:0;z-index:90;background:rgba(10,16,31,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:14px 24px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-family:var(--font-head);font-weight:700;font-size:1.1rem;letter-spacing:-.02em}
+.nav-links{display:flex;gap:20px;font-size:.9rem;color:var(--dim)}
+.nav-links a:hover{color:#fff}
+.hero{position:relative;overflow:hidden;background:var(--night);color:#fff;min-height:640px;padding:80px 24px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid var(--line)}
+.hero-inner{max-width:1080px;width:100%;margin:0 auto;display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center}
+.hero h1{font-family:var(--font-head);font-size:3.2rem;line-height:1.1;margin:0 0 20px 0;letter-spacing:-.03em}
+.hero p{font-size:1.15rem;color:var(--dim);margin:0 0 30px 0;max-width:520px}
+.badge{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;background:rgba(203,253,100,.1);border:1px solid rgba(203,253,100,.2);color:var(--lime);border-radius:99px;font-size:.85rem;font-weight:600;margin-bottom:20px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 24px;border-radius:8px;font-weight:600;font-size:.95rem;transition:all .2s}
+.btn-primary{background:var(--lime);color:var(--ink)}
+.btn-primary:hover{opacity:.9;transform:translateY(-1px)}
+.btn-outline{border:1px solid var(--line);color:#fff;margin-left:12px}
+.btn-outline:hover{background:rgba(255,255,255,.05)}
+.ticker{border-bottom:1px solid var(--line);background:#fff;color:var(--ink);padding:12px 0;overflow:hidden;white-space:nowrap;font-family:var(--font-head);font-weight:700;font-size:.9rem}
+.ticker-inner{display:inline-flex;gap:30px;animation:ticker 20s linear infinite}
+@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+section.content-section{padding:90px 24px;max-width:1080px;margin:0 auto;border-bottom:1px solid var(--line)}
+.section-heading{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:40px}
+.section-heading h2{font-family:var(--font-head);font-size:2rem;margin:0;letter-spacing:-.02em}
+.filter-row{display:flex;gap:8px;margin-bottom:24px;flex-wrap:wrap}
+.filter{border:1px solid var(--line);background:var(--night2);color:var(--dim);padding:8px 16px;border-radius:6px;font-size:.85rem;cursor:pointer}
+.filter.active{background:var(--lime);color:var(--ink);font-weight:600;border-color:var(--lime)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px}
+.card{background:var(--night2);border:1px solid var(--line);border-radius:12px;padding:24px;transition:transform .2s,border-color .2s}
+.card:hover{transform:translateY(-3px);border-color:rgba(255,255,255,.2)}
+.card h3{font-family:var(--font-head);font-size:1.25rem;margin:0 0 10px 0}
+.card p{color:var(--dim);font-size:.9rem;margin:0 0 20px 0}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{background:rgba(255,255,255,.05);padding:4px 10px;border-radius:4px;font-size:.75rem;color:var(--dim)}
+footer{padding:60px 24px;text-align:center;color:var(--dim);font-size:.9rem}
+</style>
 </head>
 <body>
-    <div class="container">
-        <header class="hero">
-            <div class="badge-row">
-                <span class="status-badge">● Computer Science Undergraduate</span>
-                <span class="award-badge">🏆 1st Prize Hackathon Winner</span>
-            </div>
-            <h1>Madhav Rawal</h1>
-            <div class="hero-subtitle">Software Developer &bull; 3D Web Simulator Builder &bull; AI Enthusiast</div>
-            <p class="hero-bio"><strong>Madhav Rawal</strong> is a Computer Science undergraduate and software developer specializing in interactive 3D web engineering, KVL circuit physics engines, and Artificial Intelligence applications.</p>
-        </header>
-        <section>
-            <div class="section-header">
-                <h2>📖 Professional Biography & Background</h2>
-                <span>Software Engineering & Interactive 3D Systems</span>
-            </div>
-            <article class="bio-story">
-                <p><strong>Madhav Rawal</strong> built an early foundation in analytical strategy, problem-solving, and structured communication through competitive academic and technical initiatives. Demonstrating early aptitude for strategic planning and analytical reasoning, he secured competitive honors in inter-house tournaments while refining articulate public presentation and communication skills.</p>
-                <p>Advancing into undergraduate studies in <strong>Computer Science</strong>, Madhav focused his technical pursuits on software engineering, <strong>C programming</strong>, and advanced browser-based 3D architecture. Moving beyond static instructional materials, he engineered immersive, experiential web platforms—most notably <strong>LabFault 3D</strong> (an interactive virtual circuit laboratory featuring real-time Kirchhoff's Voltage Law simulation and contextual fault diagnosis) and <strong>EchoLab 3D</strong> (a browser-based flight aerodynamics and UAV simulation laboratory).</p>
-                <p>Recognizing excellence in problem-solving and software execution, Madhav and his development team secured <strong>1st Prize (Best Hackathon Project)</strong> for <strong>Fetchzero</strong> at a prominent institute-level hackathon. Alongside hands-on web systems development, he continuously expands his expertise in modern computing through verified specializations in <strong>Artificial Intelligence</strong> and <strong>Natural Language Processing (NLP)</strong>, while directing digital media production and technical communication across public developer channels.</p>
-            </article>
-        </section>
-        <section>
-            <div class="section-header">
-                <h2>🚀 Featured Hackathon & Live 3D Projects</h2>
-                <span>Interactive WebGL Prototypes & Winning Solutions</span>
-            </div>
-            <div class="projects-grid">
-                <article class="project-card">
-                    <div>
-                        <div class="project-tag">🏆 1st Prize — Best Hackathon Project</div>
-                        <h3>Fetchzero</h3>
-                        <p>Secured <strong>1st Place (Best Hackathon Project)</strong> at an institute-level hackathon, recognized for exceptional problem-solving, system design, and technical execution.</p>
-                        <div class="tech-pills"><span class="pill">Problem Solving</span><span class="pill">System Design</span><span class="pill">Software Architecture</span></div>
-                    </div>
-                </article>
-                <article class="project-card">
-                    <div>
-                        <div class="project-tag">🟢 Live 3D Prototype &bull; Team Project</div>
-                        <h3>LabFault 3D — Virtual Lab Simulator</h3>
-                        <p>Interactive 3D Virtual Laboratory with contextual fault detection. Features real-time KVL circuit equations and rule-based wiring fault diagnosis in the browser.</p>
-                        <div class="tech-pills"><span class="pill">React</span><span class="pill">TypeScript</span><span class="pill">Three.js / R3F</span><span class="pill">WebGL</span></div>
-                    </div>
-                </article>
-                <article class="project-card">
-                    <div>
-                        <div class="project-tag">🟢 Live 3D Prototype &bull; Hackathon Project</div>
-                        <h3>EchoLab 3D — Defence Learning Lab</h3>
-                        <p>Interactive browser-based fighter aerodynamics and quadcopter UAV laboratory. Inspect jet engine cutaways, test lift/drag physics in real time, and explore exploded 3D drone components.</p>
-                        <div class="tech-pills"><span class="pill">Vite</span><span class="pill">Three.js</span><span class="pill">Aerodynamics Simulation</span><span class="pill">Cloudflare Pages</span></div>
-                    </div>
-                </article>
-            </div>
-        </section>
-        <section>
-            <div class="section-header">
-                <h2>🎖️ Verified Certifications & Honors</h2>
-                <span>Technical & Professional Credentials</span>
-            </div>
-            <div class="bento-grid">
-                <div class="bento-card">
-                    <h3>🧠 AI & Advanced Computing</h3>
-                    <ul class="cert-list">
-                        <li><strong>Introduction to Artificial Intelligence</strong>Verified Course Completion (Infosys Springboard)</li>
-                        <li><strong>Introduction to Natural Language Processing</strong>Verified Course Completion (Infosys Springboard)</li>
-                        <li><strong>Cyber Hygiene & Security Practices</strong>National Cyber Awareness & Digital Safety Certification</li>
-                    </ul>
-                </div>
-                <div class="bento-card">
-                    <h3>🎤 Technical Communication</h3>
-                    <ul class="cert-list">
-                        <li><strong>Professional Stage Presentation & Hosting</strong>Advanced Certification in Public Speaking & Event Moderation</li>
-                        <li><strong>Structured Debate & Analytical Reasoning</strong>Competitive Institute-Level Representation & Honors</li>
-                        <li><strong>Digital Media & Technical Storytelling</strong>Video Production, Scriptwriting & Developer Content Creation</li>
-                    </ul>
-                </div>
-                <div class="bento-card">
-                    <h3>♟️ Strategy & National Quizzes</h3>
-                    <ul class="cert-list">
-                        <li><strong>3rd Prize — Inter-House Chess Merit</strong>Recognition for Tactical Planning & Strategic Execution</li>
-                        <li><strong>Ecology, Agriculture & Governance Quizzes</strong>National Digital Quiz Participation & Recognition</li>
-                        <li><strong>Public Sector Digital Awareness Programs</strong>National Initiative Certifications in Civic & Healthcare Domains</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <p>&copy; 2026 <strong>Madhav Rawal</strong> &bull; Software Developer & Technical Creator</p>
-        </footer>
+<div class="topbar">
+  <div class="logo">Madhav Rawal</div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+<section class="hero" id="about">
+  <div class="hero-inner">
+    <div>
+      <div class="badge">● Available for opportunities</div>
+      <h1>Software Developer &amp; 3D Web Creator</h1>
+      <p>Building high-performance web applications, interactive 3D simulations, and scalable developer tools.</p>
+      <div>
+        <a href="#work" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
     </div>
+    <div style="background:var(--night2);border:1px solid var(--line);border-radius:16px;padding:30px;text-align:center">
+      <div style="font-size:3.5rem;margin-bottom:10px">🚀</div>
+      <h3 style="font-family:var(--font-head);margin:0 0 8px 0">Computer Science Student</h3>
+      <p style="color:var(--dim);font-size:.9rem;margin:0">Passionate about full-stack development, WebGL graphics, and open-source software.</p>
+    </div>
+  </div>
+</section>
+<div class="ticker">
+  <div class="ticker-inner">
+    <span>FULL-STACK DEVELOPMENT</span><span>•</span>
+    <span>3D WEB GRAPHICS</span><span>•</span>
+    <span>HACKATHON WINNER</span><span>•</span>
+    <span>OPEN SOURCE CONTRIBUTOR</span><span>•</span>
+    <span>FULL-STACK DEVELOPMENT</span><span>•</span>
+    <span>3D WEB GRAPHICS</span><span>•</span>
+    <span>HACKATHON WINNER</span><span>•</span>
+    <span>OPEN SOURCE CONTRIBUTOR</span>
+  </div>
+</div>
+<section class="content-section" id="work">
+  <div class="section-heading">
+    <h2>Featured Work</h2>
+  </div>
+  <div class="filter-row">
+    <button class="filter active">All</button>
+    <button class="filter">Web Apps</button>
+    <button class="filter">3D Graphics</button>
+    <button class="filter">Tools</button>
+  </div>
+  <div class="grid">
+    <div class="card">
+      <h3>Portfolio Website V2</h3>
+      <p>Modern redesigned portfolio built with optimized responsive layouts and custom domain integration.</p>
+      <div class="tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">GitHub Pages</span></div>
+    </div>
+    <div class="card">
+      <h3>3D Simulation Engine</h3>
+      <p>Interactive web-based 3D environment rendered using Three.js and WebGL shaders.</p>
+      <div class="tags"><span class="tag">JavaScript</span><span class="tag">Three.js</span><span class="tag">WebGL</span></div>
+    </div>
+    <div class="card">
+      <h3>Developer Utility Suite</h3>
+      <p>Collection of lightweight developer productivity tools and API integrations.</p>
+      <div class="tags"><span class="tag">TypeScript</span><span class="tag">Node.js</span><span class="tag">REST API</span></div>
+    </div>
+  </div>
+</section>
+<section class="content-section" id="contact">
+  <div class="section-heading">
+    <h2>Connect</h2>
+  </div>
+  <p style="color:var(--dim)">Feel free to reach out for collaborations or project inquiries.</p>
+  <div style="display:flex;gap:16px;margin-top:20px">
+    <a href="https://github.com/thakurmadhav381-prog" class="btn btn-outline" target="_blank">GitHub</a>
+    <a href="https://madhavrawal.xyz" class="btn btn-primary" target="_blank">madhavrawal.xyz</a>
+  </div>
+</section>
+<footer>
+  <p>© 2026 Madhav Rawal. All rights reserved.</p>
+</footer>
 </body>
 </html>
