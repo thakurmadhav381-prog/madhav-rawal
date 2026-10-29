@@ -1,0 +1,25 @@
+DEPLOYMENT HANDOFF — MADHAV RAWAL WEBSITE
+==========================================
+TARGET REPOSITORY: https://github.com/thakurmadhav381-prog/madhav-rawal
+TARGET BRANCH: main
+LIVE DOMAIN: https://madhavrawal.xyz
+
+OBJECTIVE
+Replace the existing old portfolio HTML with the supplied approved seven-section cinematic portfolio while preserving the current working custom domain and GitHub Pages configuration. Do not add any audio or soundtrack.
+
+INSTRUCTIONS
+1. Unzip this archive. The website files are at the ZIP root. Do NOT commit the ZIP file alone or nest the website in a folder.
+2. Authenticate to GitHub with repository contents read/write access. Confirm the repository name and current main branch.
+3. Before replacing anything, safeguard the existing main branch (e.g. create a branch called backup-before-portfolio-deploy-2026-10-29, if it does not exist, or otherwise use a fresh clearly named backup branch). Do not delete old commits.
+4. Preserve the current existing CNAME content 'madhavrawal.xyz' and the GitHub Pages custom-domain settings. The included CNAME matches the existing one. Do NOT remove or rename the domain or delete the repository.
+5. Upload/commit the supplied index.html and the full assets/ directory to the root of main; include .nojekyll. Keep other unrelated repository files, including README.md. The supplied CNAME can be committed if missing, but never change it away from madhavrawal.xyz.
+6. Ensure GitHub Pages deploys from main / (root), or preserve the working existing equivalent Pages build source; do not disturb the custom domain/HTTPS if already working.
+7. Once GitHub Actions/Pages deployment completes, test https://madhavrawal.xyz/ with HTTPS, all image paths, responsive nav, each of 7 sections, POLARIS and LABFAULT interactions, and contact links.
+8. Confirm the website has NO MUSIC/AUDIO or autoplay. LabFault must be described as an exploratory 3D virtual lab with fault detection, NOT a QR reporting system. School/college names should not be publicly displayed. Do not leak certificate IDs/other private info.
+9. Report (a) actual commit SHA and URL, (b) backup branch name, (c) Pages build status, (d) tested live URL/status, and (e) anything unverified. Do not claim success without verifying.
+
+SEVEN SECTIONS: Hero, About, Achievements/Impact, POLARIS, LABFAULT, Skills/Creativity, Contact.
+
+IMPORTANT: The live domain appears to be working according to the user. Therefore preserve CNAME and custom domain. The earlier advice to delete CNAME was only for the alternative temporary GitHub URL and is NO LONGER RELEVANT.
+
+IF GITHUB WRITE ACCESS IS DENIED: explain the permission error. Never pretend to publish. Ask the user for authenticated GitHub access/approval in the supported workflow or provide a manual upload path.
